@@ -8,11 +8,11 @@ from pandas import date_range, Series, DataFrame
 
 class SeminarScheduler:
     def __init__(self,
+                 start_date,
+                 end_date,
                  personlist=None,
                  taglist=None,
                  rolelist=None,
-                 start_date,
-                 end_date,
                  savename="schedule.csv",
                  rand_seed=314):
 
